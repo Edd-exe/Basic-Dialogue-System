@@ -1,0 +1,291 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d783b7fc0a32cd643bb9c09873f89585, type: 3}
+  m_Name: Data_MainDialogue
+  m_EditorClassIdentifier: 
+  ShowTalkerName: 1
+  DefaultStandbyTimeRate: 0.5
+  Talkers:
+  - Name: Father
+    Type: 0
+  - Name: Child
+    Type: 1
+  - Name: Walter White
+    Type: 2
+  Dialogues:
+  - Name: Speech 1
+    Loop: 0
+    Sentences:
+    - Talker: 0
+      Type: 0
+      Text: I can't be your ghost right now.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 0
+      Type: 0
+      Text: I need to exist.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 0
+      Type: 0
+      Text: ... they chose me. You saw.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 0
+      Type: 0
+      Text: You're the one who led me to them.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 2
+    - Talker: 1
+      Type: 0
+      Text: That's exactly why you can't go.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 1
+      Type: 0
+      Text: I figured out the message.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 1
+    - Talker: 1
+      Type: 1
+      Text: One word. Know what it is?
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 0
+      Type: 2
+      Text: No, I don't know...
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 5
+    - Talker: 0
+      Type: 2
+      Text: Yes, I know.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+  - Name: 'Choice 1: No'
+    Loop: 0
+    Sentences:
+    - Talker: 0
+      Type: 0
+      Text: ...
+      StandbyTime: 2
+      StandbyTimeAfterSentence: 1
+    - Talker: 1
+      Type: 0
+      Text: Stay.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 2
+    - Talker: 1
+      Type: 0
+      Text: It says, "Stay," Dad.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 1
+    - Talker: 0
+      Type: 0
+      Text: Murph.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 1
+      Type: 0
+      Text: You don't believe me.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 1
+      Type: 0
+      Text: Look at the books! Look at this.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 1
+      Type: 0
+      Text: It says, "Stay".
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 2
+  - Name: 'Choice 1: Yes'
+    Loop: 0
+    Sentences:
+    - Talker: 0
+      Type: 0
+      Text: I know but...
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 1
+    - Talker: 1
+      Type: 0
+      Text: Why-? You're not listening!
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 1
+      Type: 0
+      Text: ' It says, "Stay!"'
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 2
+  - Name: Speech 2
+    Loop: 0
+    Sentences:
+    - Talker: 0
+      Type: 0
+      Text: I'm coming back.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 1
+    - Talker: 1
+      Type: 0
+      Text: When'?
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 3
+    - Talker: 0
+      Type: 0
+      Text: One for you, one for me.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 0
+      Type: 0
+      Text: When I'm up there in hypersleep, or...
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 2
+    - Talker: 0
+      Type: 0
+      Text: ...traveling near the speed of light, or...
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 0
+      Type: 0
+      Text: ...near a black hole...
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 0
+      Type: 0
+      Text: ...time's gonna change for me. It's gonna run more slowly.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 2
+    - Talker: 0
+      Type: 0
+      Text: When we get back we're gonna compare.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 1
+    - Talker: 1
+      Type: 1
+      Text: Time will run differently for us?
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 0
+      Type: 2
+      Text: Yes...
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 0
+      Type: 2
+      Text: Maybe...
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 0
+      Type: 2
+      Text: No...
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+  - Name: 'Choice 2: Yes'
+    Loop: 0
+    Sentences:
+    - Talker: 0
+      Type: 0
+      Text: Yeah.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 0
+      Type: 0
+      Text: By the time I get back, we might even be the same age, you and me.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 2
+    - Talker: 1
+      Type: 0
+      Text: ...
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 2
+    - Talker: 0
+      Type: 0
+      Text: '"What?" Imagine that!'
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 1
+  - Name: 'Choice 2: Maybe'
+    Loop: 0
+    Sentences:
+    - Talker: 0
+      Type: 0
+      Text: Maybe time flies fast and there may be a little difference
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 1
+    - Talker: 1
+      Type: 0
+      Text: How much of a difference will there be?
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 1
+    - Talker: 0
+      Type: 0
+      Text: ...
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 1
+  - Name: 'Choice 3: No'
+    Loop: 0
+    Sentences:
+    - Talker: 0
+      Type: 0
+      Text: No way!
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 1
+    - Talker: 1
+      Type: 0
+      Text: You're lying...
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 1
+  - Name: Speech 3
+    Loop: 0
+    Sentences:
+    - Talker: 1
+      Type: 0
+      Text: You have no idea when you're coming back.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 1
+      Type: 0
+      Text: No idea at all!
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 1
+    - Talker: 0
+      Type: 0
+      Text: Murph, don't- Don't make me leave like this.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 0
+      Type: 0
+      Text: Come on, Murph!
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 1
+    - Talker: 0
+      Type: 0
+      Text: ...l love you.
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 0
+      Type: 0
+      Text: Forever. You hear me?
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 1
+  - Name: End
+    Loop: 1
+    Sentences:
+    - Talker: 0
+      Type: 0
+      Text: Murph...
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 1
+    - Talker: 1
+      Type: 0
+      Text: ...
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0

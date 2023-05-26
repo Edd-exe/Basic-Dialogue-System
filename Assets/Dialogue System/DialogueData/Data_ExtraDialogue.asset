@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d783b7fc0a32cd643bb9c09873f89585, type: 3}
+  m_Name: Data_ExtraDialogue
+  m_EditorClassIdentifier: 
+  Dialogues:
+  - Name: Dialogue
+    Loop: 1
+    Sentences:
+    - Talker: 2
+      Type: 0
+      Text: "You clearly don\u2019t know who you\u2019re talking to, so let me clue
+        you in."
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 2
+      Type: 0
+      Text: I am not in danger...
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 2
+    - Talker: 2
+      Type: 0
+      Text: ' I am the danger.'
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 2
+    - Talker: 2
+      Type: 0
+      Text: A guy opens his door and gets shot, and you think that of me?
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
+    - Talker: 2
+      Type: 0
+      Text: No! I am the one who knocks!
+      StandbyTime: 0
+      StandbyTimeAfterSentence: 0
